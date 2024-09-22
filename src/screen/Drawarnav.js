@@ -27,9 +27,9 @@ const Drawarnav = () => {
         name="Secondnav"
         component={Secondnav}
         options={{
-           tabBarLabel: 'المفروشات',
+           tabBarLabel: 'من نحن',
           tabBarIcon: ({ color }) => (
-            <MaterialCommunityIcons name="bed-king" color={color} size={26} />
+            <MaterialCommunityIcons name="home-outline" color={color} size={26} />
           ),
         }}
       />
