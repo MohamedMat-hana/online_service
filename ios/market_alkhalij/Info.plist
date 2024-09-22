@@ -26,14 +26,13 @@
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
-	  <!-- Do not change NSAllowsArbitraryLoads to true, or you will risk app rejection! -->
 		<key>NSAllowsArbitraryLoads</key>
 		<false/>
 		<key>NSAllowsLocalNetworking</key>
 		<true/>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -48,5 +47,23 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Generator Black.ttf</string>
+		<string>Mada-Black.ttf</string>
+		<string>Mada-Bold.ttf</string>
+		<string>Mada-ExtraBold.ttf</string>
+		<string>Mada-ExtraLight.ttf</string>
+		<string>Mada-Light.ttf</string>
+		<string>Mada-Medium.ttf</string>
+		<string>Mada-Regular.ttf</string>
+		<string>Mada-SemiBold.ttf</string>
+		<string>Mada-VariableFont_wght.ttf</string>
+		<string>ReemKufiFun-Bold.ttf</string>
+		<string>ReemKufiFun-Medium.ttf</string>
+		<string>ReemKufiFun-Regular.ttf</string>
+		<string>ReemKufiFun-SemiBold.ttf</string>
+		<string>ReemKufiFun-VariableFont_wght.ttf</string>
+	</array>
 </dict>
 </plist>

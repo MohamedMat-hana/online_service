@@ -14,6 +14,21 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-market_alkhalij-market_alkhalijTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-market_alkhalij-market_alkhalijTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		4EAB76094746410B8B226FF6 /* Generator Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 611F0471435540CEAA886C04 /* Generator Black.ttf */; };
+		4717B9A6C6EA4013AB2196D3 /* Mada-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9FD5297FAB94FF0B7F32264 /* Mada-Black.ttf */; };
+		FD9DBD9CDF7F4795B08A43A5 /* Mada-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C38DD6E485314EF5B29BF2AD /* Mada-Bold.ttf */; };
+		AB8B1700C4A44A73987F5DB3 /* Mada-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6827664E83084CAF9E84EF48 /* Mada-ExtraBold.ttf */; };
+		88DC067C72BB4B0781262FC2 /* Mada-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95B52E6E3CF446A7962805D8 /* Mada-ExtraLight.ttf */; };
+		1481911C131D4A309519686E /* Mada-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA9445AF9FCB417F8E9CEB4F /* Mada-Light.ttf */; };
+		D5D2D404766A408A9F7CE56A /* Mada-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4437EA495074354A10EF4C0 /* Mada-Medium.ttf */; };
+		B759A351E445426EA798C03B /* Mada-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3504A6BAE9EF402FB5F905BB /* Mada-Regular.ttf */; };
+		43425451ADAA4055A0BBEBEE /* Mada-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEAD5DD8537D41858FC5D120 /* Mada-SemiBold.ttf */; };
+		150D936E584C416497486861 /* Mada-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85508B3EBF5C4D88AC6EDFE9 /* Mada-VariableFont_wght.ttf */; };
+		D11D652973E6472580231C5B /* ReemKufiFun-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B74DC381E1A94E59AEC307E3 /* ReemKufiFun-Bold.ttf */; };
+		A646B24E139D49348C4AE421 /* ReemKufiFun-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99C22E1BE7414699978DE83B /* ReemKufiFun-Medium.ttf */; };
+		74CA94868B5D456781D8647B /* ReemKufiFun-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C50E5317FD349F59697B610 /* ReemKufiFun-Regular.ttf */; };
+		950CC03F800249DC8DB3AFA6 /* ReemKufiFun-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DBD633A013A4F5FB563A7DF /* ReemKufiFun-SemiBold.ttf */; };
+		FEC5E553766C4DC2861CA6AC /* ReemKufiFun-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03E42EAC0A884CBE96EB1952 /* ReemKufiFun-VariableFont_wght.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +60,21 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = market_alkhalij/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-market_alkhalij-market_alkhalijTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-market_alkhalij-market_alkhalijTests.release.xcconfig"; path = "Target Support Files/Pods-market_alkhalij-market_alkhalijTests/Pods-market_alkhalij-market_alkhalijTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		611F0471435540CEAA886C04 /* Generator Black.ttf */ = {isa = PBXFileReference; name = "Generator Black.ttf"; path = "../assets/fonts/Generator Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B9FD5297FAB94FF0B7F32264 /* Mada-Black.ttf */ = {isa = PBXFileReference; name = "Mada-Black.ttf"; path = "../assets/fonts/Mada-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C38DD6E485314EF5B29BF2AD /* Mada-Bold.ttf */ = {isa = PBXFileReference; name = "Mada-Bold.ttf"; path = "../assets/fonts/Mada-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6827664E83084CAF9E84EF48 /* Mada-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Mada-ExtraBold.ttf"; path = "../assets/fonts/Mada-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		95B52E6E3CF446A7962805D8 /* Mada-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Mada-ExtraLight.ttf"; path = "../assets/fonts/Mada-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FA9445AF9FCB417F8E9CEB4F /* Mada-Light.ttf */ = {isa = PBXFileReference; name = "Mada-Light.ttf"; path = "../assets/fonts/Mada-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F4437EA495074354A10EF4C0 /* Mada-Medium.ttf */ = {isa = PBXFileReference; name = "Mada-Medium.ttf"; path = "../assets/fonts/Mada-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3504A6BAE9EF402FB5F905BB /* Mada-Regular.ttf */ = {isa = PBXFileReference; name = "Mada-Regular.ttf"; path = "../assets/fonts/Mada-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BEAD5DD8537D41858FC5D120 /* Mada-SemiBold.ttf */ = {isa = PBXFileReference; name = "Mada-SemiBold.ttf"; path = "../assets/fonts/Mada-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		85508B3EBF5C4D88AC6EDFE9 /* Mada-VariableFont_wght.ttf */ = {isa = PBXFileReference; name = "Mada-VariableFont_wght.ttf"; path = "../assets/fonts/Mada-VariableFont_wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B74DC381E1A94E59AEC307E3 /* ReemKufiFun-Bold.ttf */ = {isa = PBXFileReference; name = "ReemKufiFun-Bold.ttf"; path = "../assets/fonts/ReemKufiFun-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		99C22E1BE7414699978DE83B /* ReemKufiFun-Medium.ttf */ = {isa = PBXFileReference; name = "ReemKufiFun-Medium.ttf"; path = "../assets/fonts/ReemKufiFun-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4C50E5317FD349F59697B610 /* ReemKufiFun-Regular.ttf */ = {isa = PBXFileReference; name = "ReemKufiFun-Regular.ttf"; path = "../assets/fonts/ReemKufiFun-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5DBD633A013A4F5FB563A7DF /* ReemKufiFun-SemiBold.ttf */ = {isa = PBXFileReference; name = "ReemKufiFun-SemiBold.ttf"; path = "../assets/fonts/ReemKufiFun-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		03E42EAC0A884CBE96EB1952 /* ReemKufiFun-VariableFont_wght.ttf */ = {isa = PBXFileReference; name = "ReemKufiFun-VariableFont_wght.ttf"; path = "../assets/fonts/ReemKufiFun-VariableFont_wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +154,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				2B217A11081E4ABFBF80FC06 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -149,6 +180,29 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		2B217A11081E4ABFBF80FC06 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				611F0471435540CEAA886C04 /* Generator Black.ttf */,
+				B9FD5297FAB94FF0B7F32264 /* Mada-Black.ttf */,
+				C38DD6E485314EF5B29BF2AD /* Mada-Bold.ttf */,
+				6827664E83084CAF9E84EF48 /* Mada-ExtraBold.ttf */,
+				95B52E6E3CF446A7962805D8 /* Mada-ExtraLight.ttf */,
+				FA9445AF9FCB417F8E9CEB4F /* Mada-Light.ttf */,
+				F4437EA495074354A10EF4C0 /* Mada-Medium.ttf */,
+				3504A6BAE9EF402FB5F905BB /* Mada-Regular.ttf */,
+				BEAD5DD8537D41858FC5D120 /* Mada-SemiBold.ttf */,
+				85508B3EBF5C4D88AC6EDFE9 /* Mada-VariableFont_wght.ttf */,
+				B74DC381E1A94E59AEC307E3 /* ReemKufiFun-Bold.ttf */,
+				99C22E1BE7414699978DE83B /* ReemKufiFun-Medium.ttf */,
+				4C50E5317FD349F59697B610 /* ReemKufiFun-Regular.ttf */,
+				5DBD633A013A4F5FB563A7DF /* ReemKufiFun-SemiBold.ttf */,
+				03E42EAC0A884CBE96EB1952 /* ReemKufiFun-VariableFont_wght.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -245,6 +299,21 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				4EAB76094746410B8B226FF6 /* Generator Black.ttf in Resources */,
+				4717B9A6C6EA4013AB2196D3 /* Mada-Black.ttf in Resources */,
+				FD9DBD9CDF7F4795B08A43A5 /* Mada-Bold.ttf in Resources */,
+				AB8B1700C4A44A73987F5DB3 /* Mada-ExtraBold.ttf in Resources */,
+				88DC067C72BB4B0781262FC2 /* Mada-ExtraLight.ttf in Resources */,
+				1481911C131D4A309519686E /* Mada-Light.ttf in Resources */,
+				D5D2D404766A408A9F7CE56A /* Mada-Medium.ttf in Resources */,
+				B759A351E445426EA798C03B /* Mada-Regular.ttf in Resources */,
+				43425451ADAA4055A0BBEBEE /* Mada-SemiBold.ttf in Resources */,
+				150D936E584C416497486861 /* Mada-VariableFont_wght.ttf in Resources */,
+				D11D652973E6472580231C5B /* ReemKufiFun-Bold.ttf in Resources */,
+				A646B24E139D49348C4AE421 /* ReemKufiFun-Medium.ttf in Resources */,
+				74CA94868B5D456781D8647B /* ReemKufiFun-Regular.ttf in Resources */,
+				950CC03F800249DC8DB3AFA6 /* ReemKufiFun-SemiBold.ttf in Resources */,
+				FEC5E553766C4DC2861CA6AC /* ReemKufiFun-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

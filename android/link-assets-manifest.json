@@ -1,0 +1,65 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Generator Black.ttf",
+      "sha1": "b9c9de4cdbb5bb98c81a0387d836660a7d9360c2"
+    },
+    {
+      "path": "assets/fonts/Mada-Black.ttf",
+      "sha1": "f301d0704148c5b54c03fef04e0ed84787a10f71"
+    },
+    {
+      "path": "assets/fonts/Mada-Bold.ttf",
+      "sha1": "3df49c79488495f471cbdf699837711c777e5268"
+    },
+    {
+      "path": "assets/fonts/Mada-ExtraBold.ttf",
+      "sha1": "b65859d31c66303d8f3eb60aa58d970d2495c286"
+    },
+    {
+      "path": "assets/fonts/Mada-ExtraLight.ttf",
+      "sha1": "3907b294746bcd1fa94b8fea9adec2a8c15ea7f1"
+    },
+    {
+      "path": "assets/fonts/Mada-Light.ttf",
+      "sha1": "bc6f9f0f7ab2db5e4193d3bb6557fd101617b49f"
+    },
+    {
+      "path": "assets/fonts/Mada-Medium.ttf",
+      "sha1": "39155b2ed74f7f79acd26182d5e091fd0d8ed2d0"
+    },
+    {
+      "path": "assets/fonts/Mada-Regular.ttf",
+      "sha1": "712c3fa83f810fbd4d5bd323b513d357ac6e1e65"
+    },
+    {
+      "path": "assets/fonts/Mada-SemiBold.ttf",
+      "sha1": "7b44dbed13312fbd7d7a65cdc06afee73c70ffb6"
+    },
+    {
+      "path": "assets/fonts/Mada-VariableFont_wght.ttf",
+      "sha1": "275f550b168ae9ecab8d714c31670b3b199f1f78"
+    },
+    {
+      "path": "assets/fonts/ReemKufiFun-Bold.ttf",
+      "sha1": "0b3ccde4145cd6c3491beb0aaf148e216de58700"
+    },
+    {
+      "path": "assets/fonts/ReemKufiFun-Medium.ttf",
+      "sha1": "1eed24e4da9a5e9781e82a3a085e22f114518677"
+    },
+    {
+      "path": "assets/fonts/ReemKufiFun-Regular.ttf",
+      "sha1": "5b7ccf42de91c48958ce78b52b1bbe9f2b579aec"
+    },
+    {
+      "path": "assets/fonts/ReemKufiFun-SemiBold.ttf",
+      "sha1": "602003dda3a5ea3a275188257476af1437190ecc"
+    },
+    {
+      "path": "assets/fonts/ReemKufiFun-VariableFont_wght.ttf",
+      "sha1": "d151a9ae0bedcc5ffbe52e98dcbdc9d8d019ec19"
+    }
+  ]
+}
