@@ -37,7 +37,7 @@ const Drawarnav = () => {
         name="Second"
         component={Second}
         options={{
-          tabBarLabel: 'فوط',
+          tabBarLabel: 'خدماتنا',
           tabBarIcon: ({ color }) => (
             <FontAwesome5 name="dolly-flatbed" color={color} size={20} />
           ),

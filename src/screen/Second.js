@@ -30,80 +30,49 @@ function Drink() {
       style={{ flex: 1, backgroundColor: '#141E46', }}>
       <View style={styles.headerbar}>
         <Text style={styles.textheader}>
-          الفوط
+        خدماتنا
         </Text>
       </View>
       <ScrollView>
         <View style={{
           flexDirection: "row",
-          alignSelf: "flex-start",
-          marginLeft: 5,
+          flexWrap:"wrap",
+          justifyContent: "space-evenly",
+          alignSelf: "center",
+          margin: 5,
           marginVertical: 15,
-          alignItems: "center"
+          alignItems: "center",
 
         }}>
-          <HeaderButton
-            text="الفوط الكبيرة"
-            btnColor="#000"
-            textColor="#fff"
-            activeTab={activeTab}
-            setActiveTab={setActiveTab} />
-          <HeaderButton
-            text="الفوط الصغيره"
-            btnColor="#fff"
-            textColor="#000"
-            activeTab={activeTab}
-            setActiveTab={setActiveTab} />
+          <View style={{width:150,height:100,marginVertical:10,backgroundColor:"#000"}}>
+
+          </View>
+<View style={{width:150,height:100,marginVertical:10,backgroundColor:"#000"}}>
+
+          </View>
+          <View style={{width:150,height:100,marginVertical:10,backgroundColor:"#000"}}>
+
+          </View>
+
+          <View style={{width:150,height:100,marginVertical:10,backgroundColor:"#000"}}>
+
+          </View>
+
+          <View style={{width:150,height:100,marginVertical:10,backgroundColor:"#000"}}>
+
+          </View>
+
+          <View style={{width:150,height:100,marginVertical:10,backgroundColor:"#000"}}>
+
+          </View>
 
         </View>
-        {activeTab == "الفوط الكبيرة" ? (
-          <Button />
-        ) : (
-          <Buttonsc />
-        )
-        }
       </ScrollView>
     </Animatable.View>
  </>
   );
 }
-const HeaderButton = (props) => (
-  <>
-    <TouchableOpacity style={{
-      backgroundColor: props.activeTab == props.text ? '#fff' : '#141E46',
-      paddingVertical: 6,
-      paddingHorizontal: 22,
-      borderRadius: 25,
-      marginHorizontal: 5
-    }}
-      onPress={() => { props.setActiveTab(props.text) }}>
-      <Text
-        style={{
-          fontFamily: "ReemKufiFun-Bold",
-
-          color: props.activeTab == props.text ? "#141E46" : "#fff",
-          fontSize: 15,
-          // fontWeight: "900"
-        }}>{props.text}</Text>
-
-    </TouchableOpacity>
-  </>
-
-)
-const Button = (props) => (
-  <>
-    <BigFoat />
-  </>
-
-)
-const Buttonsc = (props) => (
-  <>
-
-    <Foat />
-
-  </>
-
-)
+ 
 const styles = StyleSheet.create({
   headerbar: {
     backgroundColor: "#141E46",
