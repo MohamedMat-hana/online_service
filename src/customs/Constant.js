@@ -8,7 +8,8 @@ export const COLORS = {
     whatsapp: '#0e8623',
     facebook: '#28346f',
     phone: '#16294e',
-    gray: '#aaa',
+    instagram:"#fe1044",
+     gray: '#aaa',
     red:"#f92525",
     error: '#f86e87'
 

@@ -56,7 +56,7 @@ console.log(coun);
           <Animatable.Text
             // animation="fadeIn"
             // duration={10000}
-            style={styles.text}>زهرة الخليج</Animatable.Text>
+            style={styles.text}>زهرة الشرقية</Animatable.Text>
         </View>
       </>
     )

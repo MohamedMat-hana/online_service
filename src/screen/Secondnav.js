@@ -50,7 +50,7 @@ const Drink = ({navigation}) => {
             }}>
             <Entypo name="cog" size={22} color={COLORS.white} />
           </TouchableOpacity>
-          <Text style={styles.textheader}>زهرة الخليج</Text>
+          <Text style={styles.textheader}>زهرة الشرقية</Text>
           <View></View>
         </View>
 
