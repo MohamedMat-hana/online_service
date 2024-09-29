@@ -1,8 +1,6 @@
 import React, {useState} from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import Foat from './Foat.js';
-import BigFoat from './BigFoat.js';
-import Details from './Details.js';
+ import Details from './Details.js';
 import * as Animatable from 'react-native-animatable';
 
 const Stack = createNativeStackNavigator();
@@ -21,7 +19,7 @@ import {useNavigation} from '@react-navigation/native';
 
 const {width, height} = Dimensions.get('window');
 
-function Drink() {
+function OurServices() {
   const navigation = useNavigation();
 
   const [services, setServices] = useState([
@@ -185,12 +183,12 @@ const styles = StyleSheet.create({
     // marginLeft: "50%",
   },
 });
-function Second() {
+function Services() {
   return (
     <Stack.Navigator>
       <Stack.Screen
-        name="Drink"
-        component={Drink}
+        name="OurServices"
+        component={OurServices}
         options={{headerShown: false}}
       />
 
@@ -203,4 +201,4 @@ function Second() {
   );
 }
 
-export default Second;
+export default Services;

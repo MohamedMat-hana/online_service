@@ -3,7 +3,7 @@ import { createMaterialBottomTabNavigator } from '@react-navigation/material-bot
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Second from './Second';
+import Services from './Services';
 import Contactus from './Contactus';
 import Secondnav from './Secondnav';
 import { COLORS,RADIUS,MARGIN,FONTS } from '../customs/Constant';
@@ -34,8 +34,8 @@ const Drawarnav = () => {
         }}
       />
       <Tab.Screen
-        name="Second"
-        component={Second}
+        name="Services"
+        component={Services}
         options={{
           tabBarLabel: 'خدماتنا',
           tabBarIcon: ({ color }) => (

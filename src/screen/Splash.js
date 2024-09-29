@@ -1,44 +1,28 @@
 import React from 'react';
-import {
-  View, Text, StyleSheet, StatusBar, Dimensions
-} from 'react-native';
+import {View, Text, StyleSheet, StatusBar, Dimensions} from 'react-native';
 import LottieView from 'lottie-react-native';
-const { width, height } = Dimensions.get('window');
+const {width, height} = Dimensions.get('window');
 import * as Animatable from 'react-native-animatable';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 export default class Splash extends React.Component {
-
   constructor(props) {
-    super(props)
-    this.ref = React.createRef(null)
-    this.state = {
-
-    }
+    super(props);
+    this.ref = React.createRef(null);
+    this.state = {};
   }
   componentDidMount() {
-    this.get_Count()
+    this.get_Count();
   }
   async get_Count() {
-    let coun = await AsyncStorage.getItem("login")
-console.log(coun);
+    let coun = await AsyncStorage.getItem('login');
+    console.log(coun);
     setTimeout(() => {
       if (coun == 1) {
-        //   await AsyncStorage.setItem('login',null)
-        //   this.setState({ count: 0 })
-        this.props.navigation.navigate("Drawarnav")
-
-      }
-      else if (coun == 2) {
-        //   await AsyncStorage.setItem('login',null)
-        //   this.setState({ count: 0 })
-        this.props.navigation.navigate("Choose_page")
-
+        this.props.navigation.navigate('Drawarnav');
       } else {
-        //   this.setState({ count: coun })
-        this.props.navigation.navigate("Intro")
-
+        this.props.navigation.navigate('Intro');
       }
-    }, 9000)
+    },8000);
   }
   render() {
     return (
@@ -51,17 +35,18 @@ console.log(coun);
             autoPlay={true}
             loop={false}
             speed={0.5}
-            style={{ width: width, height: height / 2 }}
+            style={{width: width, height: height / 2}}
           />
           <Animatable.Text
             // animation="fadeIn"
             // duration={10000}
-            style={styles.text}>زهرة الشرقية</Animatable.Text>
+            style={styles.text}>
+            زهرة الشرقية
+          </Animatable.Text>
         </View>
       </>
-    )
+    );
   }
-
 }
 
 const styles = StyleSheet.create({

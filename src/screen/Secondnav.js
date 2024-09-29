@@ -13,28 +13,14 @@ import {
   BackHandler,
 } from 'react-native';
 import * as Animatable from 'react-native-animatable';
-import First from './First.js';
-import Details from './Details.js';
-import Bigmafro from './Bigmafro.js';
 const {width, height} = Dimensions.get('window');
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import Entypo from 'react-native-vector-icons/Entypo';
 import {COLORS, FONTS} from '../customs/Constant.js';
 
-const Drink = ({navigation}) => {
-  const store_Count = async () => {
-    await AsyncStorage.setItem('login', '1');
-    console.log('login=1');
-  };
-  Log_Out = async () => {
-    await AsyncStorage.setItem('login', '0');
-    navigation.navigate('Login');
-    console.log('login=0');
-  };
-
+const OurServices = ({navigation}) => {
   const [model_alert, setmodel_alert] = useState(false);
 
-  const [activeTab, setActiveTab] = useState('المفروشات الكبيرة');
   return (
     <>
       <StatusBar barStyle={'light-content'} backgroundColor={'#141E46'} />
@@ -44,14 +30,7 @@ const Drink = ({navigation}) => {
         duration={1000}
         style={{flex: 1, backgroundColor: '#141E46'}}>
         <View style={styles.headerbar}>
-          <TouchableOpacity
-            onPress={() => {
-              store_Count(), setmodel_alert(true);
-            }}>
-            <Entypo name="cog" size={22} color={COLORS.white} />
-          </TouchableOpacity>
           <Text style={styles.textheader}>زهرة الشرقية</Text>
-          <View></View>
         </View>
 
         <ScrollView>
@@ -87,12 +66,12 @@ const Drink = ({navigation}) => {
                 borderBottomRightRadius: 30,
                 alignItems: 'center',
                 justifyContent: 'center',
-                alignSelf:"center"
+                alignSelf: 'center',
               }}>
               <Image
                 source={require('../Img/th.jpg')}
                 style={{
-                  alignSelf:"center",
+                  alignSelf: 'center',
                   borderRadius: 25,
                   width: width / 1.06,
                   height: height / 3,
@@ -216,7 +195,7 @@ const styles = StyleSheet.create({
   headerbar: {
     backgroundColor: '#141E46',
     height: height / 10,
-    justifyContent: 'space-around',
+    justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'row',
   },
@@ -229,4 +208,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Drink;
+export default OurServices;

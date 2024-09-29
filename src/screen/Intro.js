@@ -63,6 +63,10 @@ export default class Intro extends React.Component {
   }
 
   renderIntro = ({item}) => {
+    store_Count = async () => {
+      await AsyncStorage.setItem('login', '1');
+      console.log('login=1');
+    };
     return (
       <View style={styles.each_screen_container_style}>
         <StatusBar barStyle={'light-content'} backgroundColor={'#141E46'} />
@@ -97,7 +101,7 @@ export default class Intro extends React.Component {
       <TouchableOpacity
         style={styles.botton_style}
         onPress={() => {
-          this.props.navigation.navigate('Signup');
+          store_Count(), this.props.navigation.navigate('Drawarnav');
         }}>
         <Text style={styles.text_style}>تم</Text>
       </TouchableOpacity>
