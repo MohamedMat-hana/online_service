@@ -61,7 +61,7 @@ const Foat = () => {
         style={styles.button}
         onPress={() => {
           store_Count(),
-          navigation.navigate("Elrab", {
+          navigation.navigate("Details", {
             name: item,
           });
           console.log(item)

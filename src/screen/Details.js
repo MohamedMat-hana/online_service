@@ -24,7 +24,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
 const {width, height} = Dimensions.get('window');
 
-export default class Elrab extends React.Component {
+export default class Details extends React.Component {
   constructor(props) {
     super(props);
     this.state = {

@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Foat from './Foat.js';
 import BigFoat from './BigFoat.js';
-import Elrab from './Elrab.js';
+import Details from './Details.js';
 import * as Animatable from 'react-native-animatable';
 
 const Stack = createNativeStackNavigator();
@@ -149,7 +149,7 @@ function Drink() {
                 justifyContent: 'center',
               }}
               onPress={() => {
-                navigation.navigate('Elrab', {
+                navigation.navigate('Details', {
                   name: item,
                 });
               }}>
@@ -194,8 +194,8 @@ function Second() {
       />
 
       <Stack.Screen
-        name="Elrab"
-        component={Elrab}
+        name="Details"
+        component={Details}
         options={{headerShown: false}}
       />
     </Stack.Navigator>

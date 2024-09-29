@@ -106,7 +106,7 @@
 //               {map.map((item, index) => (
 //                 <TouchableOpacity
 //                   onPress={() => {
-//                     navigation.navigate("elrab", {
+//                     navigation.navigate("Details", {
 //                       name: item,
 //                     });
 //                   }}
@@ -244,7 +244,7 @@ const BigFoat = () => {
         style={styles.button}
         onPress={() => {
           store_Count(),
-          navigation.navigate("Elrab", {
+          navigation.navigate("Details", {
             name: item,
           });
           console.log(item)

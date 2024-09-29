@@ -14,7 +14,7 @@ import {
 } from 'react-native';
 import * as Animatable from 'react-native-animatable';
 import First from './First.js';
-import Elrab from './Elrab.js';
+import Details from './Details.js';
 import Bigmafro from './Bigmafro.js';
 const {width, height} = Dimensions.get('window');
 import AsyncStorage from '@react-native-async-storage/async-storage';
