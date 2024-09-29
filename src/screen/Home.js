@@ -18,7 +18,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import Entypo from 'react-native-vector-icons/Entypo';
 import {COLORS, FONTS} from '../customs/Constant.js';
 
-const OurServices = ({navigation}) => {
+const Home = ({navigation}) => {
   const [model_alert, setmodel_alert] = useState(false);
 
   return (
@@ -200,7 +200,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
   },
   textheader: {
-    fontSize: 25,
+    fontSize: FONTS.h1,
     color: '#fff',
     alignSelf: 'center',
     fontFamily: 'Generator Black',
@@ -208,4 +208,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default OurServices;
+export default Home;

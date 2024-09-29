@@ -11,8 +11,8 @@ import {
   ScrollView,
 } from 'react-native';
 import * as Animatable from 'react-native-animatable';
-import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-import {COLORS, RADIUS, MARGIN, FONTS, PADDING} from '../customs/Constant';
+import FontAwesome from 'react-native-vector-icons/FontAwesome';
+import {COLORS, RADIUS, MARGIN, FONTS, PADDING, FONTSFAMILY} from '../customs/Constant';
 
 const {width, height} = Dimensions.get('window');
 
@@ -24,16 +24,16 @@ const contactMethods = [
     link: 'tel:+966 55 018 7070',
   },
   {
-    name: 'Facebook',
-    icon: 'facebook',
-    color: COLORS.facebook,
-    link: 'https://www.facebook.com/waal.mathana?mibextid=JRoKGi',
+    name: 'snapchat',
+    icon: 'snapchat-square',
+    color: COLORS.snapchat,
+    link: 'https://www.snapchat.com/add/yourusername',
   },
   {
     name: 'WhatsApp',
     icon: 'whatsapp',
     color: COLORS.whatsapp,
-    link: 'https://api.whatsapp.com/send?phone=966 55 018 7070',
+    link: 'https://api.whatsapp.com/send?phone=966550187070',
   },
   {
     name: 'instagram',
@@ -44,7 +44,7 @@ const contactMethods = [
   {
     name: 'link',
     icon: 'link',
-    color: COLORS.gray,
+    color: COLORS.white,
     link: "https://zahrtsharqia.com/",
   },
   
@@ -77,7 +77,7 @@ export default class Contactus extends React.Component {
                 key={index}
                 style={styles.first}>
                 <TouchableOpacity onPress={() => Linking.openURL(method.link)}>
-                  <MaterialCommunityIcons
+                  <FontAwesome
                     name={method.icon}
                     color={method.color}
                     size={60}
@@ -110,16 +110,18 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     alignSelf: 'center',
-    backgroundColor: COLORS.white,
+    backgroundColor: COLORS.background,
     borderRadius: RADIUS.xxsRadius,
+    borderWidth:1,
+    borderColor:COLORS.gray,
   },
   ViewText: {
     backgroundColor: COLORS.main,
   },
   Text: {
     color: COLORS.white,
-    fontSize: FONTS.h2,
+    fontSize: FONTS.h1,
     alignSelf: 'center',
-    fontFamily: 'ReemKufiFun-Bold',
+    fontFamily: FONTSFAMILY.Generator_Black,
   },
 });

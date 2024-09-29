@@ -14,12 +14,12 @@ import {
   ScrollView,
   Dimensions,
 } from 'react-native';
-import {COLORS, FONTSFAMILY} from '../customs/Constant.js';
+import {COLORS, FONTS, FONTSFAMILY} from '../customs/Constant.js';
 import {useNavigation} from '@react-navigation/native';
 
 const {width, height} = Dimensions.get('window');
 
-function OurServices() {
+function Home() {
   const navigation = useNavigation();
 
   const [services, setServices] = useState([
@@ -169,7 +169,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   textheader: {
-    fontSize: 25,
+    fontSize: FONTS.h1,
     color: '#fff',
     alignSelf: 'center',
     fontFamily: FONTSFAMILY.Generator_Black,
@@ -187,8 +187,8 @@ function Services() {
   return (
     <Stack.Navigator>
       <Stack.Screen
-        name="OurServices"
-        component={OurServices}
+        name="Home"
+        component={Home}
         options={{headerShown: false}}
       />
 
