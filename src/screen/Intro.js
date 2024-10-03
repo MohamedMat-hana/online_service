@@ -116,6 +116,7 @@ export default class Intro extends React.Component {
       <TouchableOpacity
         style={styles.botton_style}
         onPress={() => {
+          store_Count(),
           this.props.navigation.navigate('NavigationPage'),
           WelcomeMasssage();
 

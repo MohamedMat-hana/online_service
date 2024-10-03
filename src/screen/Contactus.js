@@ -27,7 +27,7 @@ const contactMethods = [
     name: 'snapchat',
     icon: 'snapchat-square',
     color: COLORS.snapchat,
-    link: 'https://www.snapchat.com/add/yourusername',
+    link: 'https://www.snapchat.com/add/waelmathana',
   },
   {
     name: 'WhatsApp',

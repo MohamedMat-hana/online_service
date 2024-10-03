@@ -18,7 +18,7 @@ export default class Splash extends React.Component {
     console.log(coun);
     setTimeout(() => {
       if (coun == 1) {
-        this.props.navigation.navigate('Drawarnav');
+        this.props.navigation.navigate('NavigationPage');
       } else {
         this.props.navigation.navigate('Intro');
       }
